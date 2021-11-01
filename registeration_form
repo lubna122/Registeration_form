@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <center> <u><h1 style="color: blueviolet;">Student Registration Form</h1></u> </center>
+    <form action="">
+        <p>First Name: 
+            <input type="text" placeholder="Enter your name" name = "First Name" size = "20" maxlength = "30">(maximum 30 character from a-z and A-Z) <br><br>
+            Last Name: 
+            <input type="text" name="Last Name" size = "20" maxlength = "30">(maximum 30 character from a-z and A-Z) <br><br>
+            Date of Birth:
+            <input type="date" name="Date of Birth"> <br><br>
+            Email ID:
+            <input type="text" name="Email ID"> <br> <br>
+            MOBILE NUMBER: 
+            <input type="text" name = "MOBILE NUMBER" maxlength="10">(10 digit number) <br><br>
+            GENDER: 
+            <input type="radio" name = "GENDER" value = "MALE"> MALE
+            <input type="radio" name="GENDER" value = "FEMALE" > FEMALE <br><br>
+            ADDRESS: 
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br> <br>
+            CITY:
+            <input type="text" name="CITY" size="30" maxlength = "30">(maximum 30 character from a-z and A-Z) <br><br>
+            PIN CODE:
+            <input type="text" name="PIN CODE" maxlength="6">(6 digit number) <br><br>
+            STATE: 
+            <input type="text" name = "STATE" maxlength="30">(maximum 30 character from a-z and A-Z) <br><br>
+            COUNTRY: 
+            <input type="text" name = "COUNTRY" maxlength="30"> <br><br>
+            HOBBIES: 
+            <input type="checkbox" name = "HOBBIES" value = "Drawing" > Drawing
+            <input type="checkbox" name = "HOBBIES" value = "Singing" > Singing
+            <input type="checkbox" name = "HOBBIES" value = "Dancing" > Dancing
+            <input type="checkbox" name = "HOBBIES" value = "Sketching" > Sketching
+            <input type="checkbox" name = "HOBBIES" value = "Other"> Other 
+            <input type="checkbox" name = "HOBBIES" > <input type="text",name="HOBBIES"> <br><br>
+            Qualification: <table border="0"  >
+            <tr>
+                <th>  SI NO.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+
+                
+            </tr> 
+            <tr>
+                <th>1</th>
+                <th>Class X</th>
+                <th><input type="text" maxlength="10"></th>
+                <th><input type="text" maxlength="2"></th>
+                <th><input type="text"></th>
+                
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Class Xll</th>
+                <th><input type="text" maxlength="10"></th>
+                <th><input type="text" maxlength="2"></th>
+                <th><input type="text"></th>
+                
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Graduation</th>
+                <th><input type="text" maxlength="10"></th>
+                
+                <th><input type="text" maxlength="2"></th>
+                <th><input type="text"></th>
+                
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>Masters</th>
+                <th><input type="text" maxlength="10"></th>
+                <th><input type="text" maxlength = "2"></th>
+                <th><input type="text"></th>
+                
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>(10 char max)</th>
+                <th>(upto 2 decimal Point)</th>
+                <th></th>
+            </tr>
+        </table>
+            Courses Applied For:
+            <input type="radio" name = "Courses Applied For" value="BCA"> BCA
+            <input type="radio" name="Courses Applied For" value = "B.COM"> B.COM
+            <input type="radio" name="Courses Applied For" value="BSc"> BSc
+            <input type="radio" name="Courses Applied For" value = "B.A."> B.A.
+        
+<center><input type="submit" name = "Submit"> <input type="reset" name="Reset"></center>
+
+        </p>
+    </form>
+    
+</body>
+</html>
